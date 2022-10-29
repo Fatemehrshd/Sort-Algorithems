@@ -1,10 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
-# Insertion Sort
+# Non-decreasing Insertion Sort
 
 '''
 Sort a sequence of data in non-decreasing way
@@ -28,8 +22,7 @@ keys = list(map(int, input().split()))
 print(non_decreasing_insertion_sort(keys))
 
 
-# In[3]:
-
+# Non-increasing Insertion Sort
 
 '''
 Sort a sequence of data in non-increasing way
@@ -50,10 +43,3 @@ def non_increasing_insertion_sort(li):
 
 keys = list(map(int, input().split()))
 print(non_increasing_insertion_sort(keys))
-
-
-# In[ ]:
-
-
-
-
